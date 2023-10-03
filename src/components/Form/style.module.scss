@@ -1,0 +1,29 @@
+.form {
+  width: 25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    input {
+      border-radius: 0.5rem;
+      padding: 0.5rem 1rem;
+      width: 6rem;
+    }
+  }
+
+  button {
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    width: 6rem;
+    background-color: #0000ff;
+    color: #ffffff;
+    font-weight: 700;
+  }
+}
